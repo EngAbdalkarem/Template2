@@ -313,16 +313,19 @@ margin: 30px 0;;
 .discount-item-info h2{
    font-size: 20px; 
 }
+.discount-item:nth-child(2),.discount-item:nth-child(3){ 
+    transition: transform 0.5s;
+    background-size: cover;
+}
 .discount-item:nth-child(2){ 
     margin: 0 20px;
-    transition: transform 0.5s;
+    background-image: url(../images/cms-banner-1.jpg);
 }
 .discount-item:nth-child(3){
-    transition: transform 0.5s;
+    background-image: url(../images/cms-banner-2.jpg);
 }
-.discount-item:hover img{
+.discount-item:hover{
     transform: scale(1.02);
-    width: 100%;
 }
 /* sprites */
 .sprites{
